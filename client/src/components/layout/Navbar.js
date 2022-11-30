@@ -16,12 +16,7 @@ const Navbar = ({
   const authUserLinks = (
     <Fragment>
       <Link className="nav-logo" to="/appointment">
-        Career Prediction and Counsling
-        <img
-          className="nav-log-img"
-          style={{ width: "3.2rem" }}
-          src={require("../../img/logo1.jpeg")}
-        />
+        Career Prediction and Counselling
       </Link>
       <button
         className="navbar-toggler"
@@ -44,11 +39,6 @@ const Navbar = ({
           <li className="nav-item active">
             <Link to="/form" className="nav-link">
               Form
-            </Link>
-          </li>
-          <li className="nav-item active">
-            <Link to="/profiles" className="nav-link">
-              Counslor
             </Link>
           </li>
           <li className="nav-item active">
