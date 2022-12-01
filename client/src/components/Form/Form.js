@@ -39,18 +39,21 @@ const Form = () => {
               id="flexRadioDefault1"
               label="In the morning"
               value="In the morning"
-              // defaultChecked
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="During the afternoon and early evening"
               label="Late at night"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="Late at night"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
           <form className="bg-white mt-3" action="">
@@ -68,16 +71,22 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
           <form className="bg-white mt-3" action="">
@@ -86,22 +95,30 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
               // defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
           <form className="bg-white mt-3" action="">
@@ -110,22 +127,30 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped"
-              defaultChecked
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+             // defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
 
@@ -135,22 +160,30 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped"
-              defaultChecked
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
           <form className="bg-white mt-3" action="">
@@ -164,22 +197,30 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped3333"
-              defaultChecked
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
           <form className="bg-white mt-3" action="">
@@ -193,22 +234,30 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped3333"
-              defaultChecked
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
           <form className="bg-white mt-3" action="">
@@ -222,22 +271,30 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped3333"
-              defaultChecked
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+             // defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
           <form className="bg-white mt-3" action="">
@@ -251,22 +308,30 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped3333"
-              defaultChecked
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
           <form className="bg-white mt-3" action="">
@@ -280,27 +345,35 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped3333"
-              defaultChecked
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
             />
           </form>
 
           <h1>Audio Based Questions</h1>
-          <div className="iframe">
+          <form className="bg-white mt-3" action="">
             <iframe
               src={"https://voca.ro/1oHX61oxk2Oa"}
               style={{
@@ -308,8 +381,38 @@ const Form = () => {
                 height: "40%",
               }}
             />
-          </div>
-          <div className="iframe">
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+              label="Have your hands clasped3333"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+              label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault3"
+              label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault4"
+              label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            
+          </form>
+          <form className="bg-white mt-3" action="">
             <iframe
               src={"https://voca.ro/1eGOGK8ZA7Hl"}
               style={{
@@ -317,8 +420,37 @@ const Form = () => {
                 height: "40%",
               }}
             />
-          </div>
-          <div className="iframe">
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+              label="Have your hands clasped3333"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+              label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault3"
+              label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault4"
+              label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+          </form>
+          <form className="bg-white mt-3" action="">
             <iframe
               src={"https://voca.ro/1bW8bzSP1BRb"}
               style={{
@@ -326,8 +458,37 @@ const Form = () => {
                 height: "40%",
               }}
             />
-          </div>
-          <div className="iframe">
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+              label="Have your hands clasped3333"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+              label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault3"
+              label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault4"
+              label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+          </form>
+          <form className="bg-white mt-3" action="">
             <iframe
               src={"https://voca.ro/12R2MN9U3b7x"}
               style={{
@@ -335,8 +496,37 @@ const Form = () => {
                 height: "40%",
               }}
             />
-            </div>
-            <div className="iframe">
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+              label="Have your hands clasped3333"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+              label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault3"
+              label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault4"
+              label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+          </form>
+            <form className="bg-white mt-3" action="">
             <iframe
               src={"https://voca.ro/1fYy1fkVBnZM"}
               style={{
@@ -344,7 +534,36 @@ const Form = () => {
                 height: "40%",
               }}
             />
-          </div>
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+              label="Have your hands clasped3333"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+              //defaultChecked
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+              label="Have one or both of your hands on your hips"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault3"
+              label="touch or push the person to whom you are talking"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+            <MDBRadio
+              name="flexRadioDefault"
+              id="flexRadioDefault4"
+              label="Stand with your arms folded"
+              value="In the morning"
+              onClick={(e)=>array.push(e.target.value)}
+            />
+          </form>
           <div className="text-white">
             <button className="btn btn-success" onClick={onSubmit}>
               Submit
