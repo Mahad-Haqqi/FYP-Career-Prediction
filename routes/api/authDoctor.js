@@ -60,7 +60,7 @@ async (req, res) => {
         }
 
         jwt.sign(payload, process.env.jwtSecret,
-            {expiresIn: 36000},
+            {expiresIn: '24h'},
             (err, token) => {
                 if(err) throw err;
                 res.json({ token });
