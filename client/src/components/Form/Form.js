@@ -16,7 +16,6 @@ const Form = () => {
   const [state, setState]= useState(false)
   const [type1, setType1] = useState(null)
   const onSubmit = async (e) => {
-    console.log("this is array", array.toString())
     const post = { selected: array.toString() }
     try {
       const res = await axios.post('http://127.0.0.1:5000/predict', post)

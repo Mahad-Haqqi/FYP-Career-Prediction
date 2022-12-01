@@ -18,7 +18,7 @@ import PrivateDoctorRoute from "./components/routing/PrivateDoctorRoute"
 import Appointment from "./components/user/Appointments"
 import AppointmentForm from "./components/bookappointment/AppointmentForm"
 import PrivateUserRoute from "./components/routing/PrivateUserRoute"
-import Home from "./components/Home/Home"
+
 import "./App.css"
 import Meeting from "./components/VedioCalling/Meeting"
 import Payment from "./components/user/Payment"
