@@ -32,7 +32,8 @@ const Form = () => {
       {state ? <Result type={type1}/> :
       <MDBRow className="justify-content-center">
         <MDBCol size="5">
-          <form className="bg-white mt-3" action="">
+        <h1>Textual Questions</h1>
+          <form className="" action="">
             <p className="fw-bold">I feel most energetic and focused:?</p>
             <MDBRadio
               name="flexRadioDefault"
@@ -43,20 +44,20 @@ const Form = () => {
             />
             <MDBRadio
               name="flexRadioDefault"
-              id="During the afternoon and early evening"
-              label="Late at night"
-              value="In the morning"
+              id="flexRadioDefault2"
+              label="During the afternoon and early evening"
+              value="During the afternoon and early evening"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
               label="Late at night"
-              value="In the morning"
+              value="Late at night"
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
+          <form className="" action="">
             <p className="fw-bold">When you speak to people, you tend to:</p>
             <MDBRadio
               name="flexRadioDefault"
@@ -71,122 +72,116 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault2"
               label="Have one or both of your hands on your hips"
-              value="In the morning"
+              value="Have one or both of your hands on your hips"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
-              label="touch or push the person to whom you are talking"
-              value="In the morning"
+              label="Touch or push the person to whom you are talking"
+              value="Touch or push the person to whom you are talking"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
               label="Stand with your arms folded"
-              value="In the morning"
+              value="Stand with your arms folded"
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
-            <p className="fw-bold">When you speak to people, you tend to:</p>
+          <form className="" action="">
+            <p className="fw-bold">When you find something really funny, you usually give:</p>
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault1"
-              label="Have your hands clasped"
-              value="In the morning"
+              label="A big, appreciative laugh"
+              value="A big, appreciative laugh"
               onClick={(e)=>array.push(e.target.value)}
               // defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
-              label="Have one or both of your hands on your hips"
-              value="In the morning"
+              label="A laugh, but not a loud one"
+              value="A laugh, but not a loud one"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
-              label="touch or push the person to whom you are talking"
-              value="In the morning"
+              label="A quiet chuckle"
+              value="A quiet chuckle"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
-              label="Stand with your arms folded"
-              value="In the morning"
+              label="A sheepish smile"
+              value="A sheepish smile"
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
-            <p className="fw-bold">When you speak to people, you tend to:</p>
+          <form className="" action="">
+            <p className="fw-bold">When you dream, you’re often:</p>
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault1"
-              label="Have your hands clasped"
-              value="In the morning"
+              label="Falling"
+              value="Falling"
               onClick={(e)=>array.push(e.target.value)}
              // defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
-              label="Have one or both of your hands on your hips"
-              value="In the morning"
+              label="Flying or floating"
+              value="Flying or floating"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
-              label="touch or push the person to whom you are talking"
-              value="In the morning"
+              label="Fighting or struggling"
+              value="Fighting or struggling"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
-              label="Stand with your arms folded"
-              value="In the morning"
+              label="Searching for something or somebody"
+              value="Searching for something or somebody"
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
 
-          <form className="bg-white mt-3" action="">
-            <p className="fw-bold">When you speak to people, you tend to:</p>
+          <form className="" action="">
+            <p className="fw-bold">When you enter a party or social gathering, you tend to:</p>
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault1"
-              label="Have your hands clasped"
-              value="In the morning"
+              label="Make a loud entrance, so that everyone notices you"
+              value="Make a loud entrance, so that everyone notices you"
               onClick={(e)=>array.push(e.target.value)}
               //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
-              label="Have one or both of your hands on your hips"
-              value="In the morning"
+              label="Make the quietest entrance, trying to stay unnoticed"
+              value="Make the quietest entrance, trying to stay unnoticed"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
-              label="touch or push the person to whom you are talking"
-              value="In the morning"
-              onClick={(e)=>array.push(e.target.value)}
-            />
-            <MDBRadio
-              name="flexRadioDefault"
-              id="flexRadioDefault4"
-              label="Stand with your arms folded"
-              value="In the morning"
+              label="Make a quiet entrance, looking around for someone you know"
+              value="Make a quiet entrance, looking around for someone you know"
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
+          <h1>Pictorial Questions</h1>
+          <form className="" action="">
             <img
               src={require("../../img/1.png")}
               width="425" 
@@ -223,7 +218,7 @@ const Form = () => {
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
+          <form className="" action="">
           <img
               src={require("../../img/books.png")}
               width="425" 
@@ -260,7 +255,7 @@ const Form = () => {
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
+          <form className="" action="">
           <img
               src={require("../../img/camping.png")}
               width="425" 
@@ -297,7 +292,7 @@ const Form = () => {
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
+          <form className="" action="">
           <img
               src={require("../../img/women in jungle.png")}
               width="425" 
@@ -334,7 +329,7 @@ const Form = () => {
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
+          <form className="" action="">
           <img
               src={require("../../img/tower.png")}
               width="425" 
@@ -372,8 +367,8 @@ const Form = () => {
             />
           </form>
 
-          <h1>Audio Based Questions</h1>
-          <form className="bg-white mt-3" action="">
+          <h1>Audio Questions</h1>
+          <form className="" action="">
             <iframe
               src={"https://voca.ro/1oHX61oxk2Oa"}
               style={{
@@ -412,7 +407,7 @@ const Form = () => {
             />
             
           </form>
-          <form className="bg-white mt-3" action="">
+          <form className="" action="">
             <iframe
               src={"https://voca.ro/1eGOGK8ZA7Hl"}
               style={{
@@ -450,7 +445,7 @@ const Form = () => {
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
+          <form className="" action="">
             <iframe
               src={"https://voca.ro/1bW8bzSP1BRb"}
               style={{
@@ -488,7 +483,7 @@ const Form = () => {
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-          <form className="bg-white mt-3" action="">
+          <form className="" action="">
             <iframe
               src={"https://voca.ro/12R2MN9U3b7x"}
               style={{
@@ -526,7 +521,7 @@ const Form = () => {
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
-            <form className="bg-white mt-3" action="">
+            <form className="" action="">
             <iframe
               src={"https://voca.ro/1fYy1fkVBnZM"}
               style={{
