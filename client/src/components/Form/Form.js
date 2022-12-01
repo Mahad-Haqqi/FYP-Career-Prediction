@@ -379,30 +379,30 @@ const Form = () => {
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault1"
-              label="Have your hands clasped3333"
-              value="In the morning"
+              label="You listen them quietly."
+              value="You listen them quietly."
               onClick={(e)=>array.push(e.target.value)}
               //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
-              label="Have one or both of your hands on your hips"
-              value="In the morning"
+              label="You feel relaxed"
+              value="You feel relaxed"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
-              label="touch or push the person to whom you are talking"
-              value="In the morning"
+              label="You get emotional"
+              value="You get emotional"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
-              label="Stand with your arms folded"
-              value="In the morning"
+              label="You start vibing on it"
+              value="You start vibing on it"
               onClick={(e)=>array.push(e.target.value)}
             />
             
@@ -418,30 +418,30 @@ const Form = () => {
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault1"
-              label="Have your hands clasped3333"
-              value="In the morning"
+              label="You think it will mess up your ears."
+              value="You think it will mess up your ears."
               onClick={(e)=>array.push(e.target.value)}
               //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
-              label="Have one or both of your hands on your hips"
-              value="In the morning"
+              label="You feel hyped up"
+              value="You feel hyped up"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
-              label="touch or push the person to whom you are talking"
-              value="In the morning"
+              label="You start dancing on it"
+              value="You start dancing on it"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
-              label="Stand with your arms folded"
-              value="In the morning"
+              label="You think this is cringe"
+              value="You think this is cringe"
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
@@ -456,30 +456,30 @@ const Form = () => {
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault1"
-              label="Have your hands clasped3333"
-              value="In the morning"
+              label="This song is pretty good."
+              value="This song is pretty good."
               onClick={(e)=>array.push(e.target.value)}
               //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
-              label="Have one or both of your hands on your hips"
-              value="In the morning"
+              label="I don’t like this song"
+              value="I don’t like this song"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
-              label="touch or push the person to whom you are talking"
-              value="In the morning"
+              label="I will put this song on repeat"
+              value="I will put this song on repeat"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
-              label="Stand with your arms folded"
-              value="In the morning"
+              label="I think this song is weird"
+              value="I think this song is weird"
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
@@ -494,30 +494,30 @@ const Form = () => {
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault1"
-              label="Have your hands clasped3333"
-              value="In the morning"
+              label="feels annoying"
+              value="feels annoying"
               onClick={(e)=>array.push(e.target.value)}
               //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
-              label="Have one or both of your hands on your hips"
-              value="In the morning"
+              label="think this music is soothing"
+              value="think this music is soothing"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
-              label="touch or push the person to whom you are talking"
-              value="In the morning"
+              label="You start dancing on it"
+              value="You start dancing on it"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
-              label="Stand with your arms folded"
-              value="In the morning"
+              label="You feel hyped up"
+              value="You feel hyped up"
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
@@ -532,30 +532,30 @@ const Form = () => {
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault1"
-              label="Have your hands clasped3333"
-              value="In the morning"
+              label="You feel relaxed"
+              value="You feel relaxed"
               onClick={(e)=>array.push(e.target.value)}
               //defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault2"
-              label="Have one or both of your hands on your hips"
-              value="In the morning"
+              label="You get emotional"
+              value="You get emotional"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault3"
-              label="touch or push the person to whom you are talking"
-              value="In the morning"
+              label="I don’t like this song"
+              value="I don’t like this song"
               onClick={(e)=>array.push(e.target.value)}
             />
             <MDBRadio
               name="flexRadioDefault"
               id="flexRadioDefault4"
-              label="Stand with your arms folded"
-              value="In the morning"
+              label="You think this is cringe"
+              value="You think this is cringe"
               onClick={(e)=>array.push(e.target.value)}
             />
           </form>
