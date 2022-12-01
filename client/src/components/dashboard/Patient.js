@@ -10,11 +10,12 @@ const Patient = ({patient}) => {
     const modalBody = patient.map(pat => (
         <Fragment key={pat._id}>
             <h2 className="style-heading"><strong>{pat.patientname}</strong></h2>
-            <p className="profile-p"><strong>Father's name: {pat.fathername}</strong></p>
+            <p className="profile-p"><strong>email: {pat.fathername}</strong></p>
             <p className="profile-p2"><strong>Age: </strong>{pat.age}</p>
             <p className="profile-p2"><strong>Status: </strong>{pat.status}</p>
             <p className="profile-p2"><strong>Date: </strong><Moment format='DD/MM/YYYY'>{pat.date}</Moment></p>
             <p className="profile-p2"><strong>Booking ID: </strong>{pat.bookingId}</p>
+            <p></p>
         </Fragment>
     ));
     const patients = patient.map(ptn => (

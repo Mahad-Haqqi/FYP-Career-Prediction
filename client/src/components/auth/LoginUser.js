@@ -32,7 +32,7 @@ const LoginUser = ({ login, isUserAuthenticated }) => {
                     <div className="common-form">
                         <div className="form-side">
                             <div className="heading-common">
-                                <h1><strong>Log in User</strong>{' '}
+                                <h1><strong>Log in as User</strong>{' '}
                                     <i className="fas fa-sign-in-alt"></i>
                                 </h1>
                             </div>
@@ -68,7 +68,7 @@ const LoginUser = ({ login, isUserAuthenticated }) => {
                             </form>
                         </div>
                         <div className="img-side">
-                            <img src={require("../../img/coughing_2.svg")} alt="" className="register-user" />
+                            <img src={require("../../img/coughing_2.jpg")} alt="" className="register-user" />
                         </div>
                     </div>
                 </div>

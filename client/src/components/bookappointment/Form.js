@@ -52,7 +52,7 @@ const Form = ({profile, doctorId,history, addAppointment}) => {
                 <input 
                     type="text" 
                     className="form-control" 
-                    placeholder="* Patient name"
+                    placeholder="* Your Name"
                     name="patientname"
                     value={patientname}
                     onChange={e => onChange(e)} />
@@ -61,7 +61,7 @@ const Form = ({profile, doctorId,history, addAppointment}) => {
                 <input
                     type="text" 
                     className="form-control" 
-                    placeholder="* Father name"
+                    placeholder="* email"
                     name="fathername" 
                     value={fathername} 
                     onChange={e => onChange(e)} />
@@ -97,12 +97,12 @@ const Form = ({profile, doctorId,history, addAppointment}) => {
                 <div className="form-group">
                     <textarea 
                         className="form-control" 
-                        placeholder="* Health Problem Description" 
+                        placeholder="* Problem Description" 
                         name="description" 
                         value={description}
                         onChange={e => onChange(e)}
                         ></textarea>
-                    <small className="form-text">Tell us about the Health Problem.</small>
+                    
                 </div>
                 <input type="submit" value="Submit" className="btn btn-info" />{' '}
                 <Link to="/profiles" type="submit" className="btn btn-outline-secondary">Go Back</Link>

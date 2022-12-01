@@ -22,7 +22,7 @@ const AppointmentItems = ({ appointment, deleteAppointment }) => {
             <strong>{appnt.patientname}</strong>
           </h2>
           <p className="profile-p">
-            <strong>Father's name: {appnt.fathername}</strong>
+            <strong>email: {appnt.fathername}</strong>
           </p>
           <p className="profile-p2">
             <strong>Age: </strong>

@@ -38,7 +38,7 @@ const DoctorRegister = ({ setAlert, register, isDoctorAuthenticated }) => {
                     <div className="common-form">
                         <div className="form-side">
                             <div className="heading-common">
-                            <h1><strong>Doctor</strong>
+                            <h1><strong>Counsellor</strong>
                                 <i className="fas fa-user-md"></i>
                             </h1>
                             </div>

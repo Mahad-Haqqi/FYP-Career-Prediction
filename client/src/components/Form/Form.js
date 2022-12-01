@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import {
   MDBBtn,
   MDBCol,
@@ -7,30 +7,10 @@ import {
   MDBRow,
 } from "mdb-react-ui-kit"
 import { Link } from "react-router-dom"
-import axios from 'axios'
-import { useHistory } from "react-router-dom"
-import Result from "../Result/Result"
 
 const Form = () => {
-  const history = useHistory()
-  const [state, setState]= useState(false)
-  const [type1, setType1] = useState(null)
-  const onSubmit = async (e) => {
-    console.log("this is array", array.toString())
-    const post = { selected: array.toString() }
-    try {
-      const res = await axios.post('http://127.0.0.1:5000/predict', post)
-      setState(true)
-      setType1(res.data)
-      console.log(res.data)
-    } catch (e) {
-      alert(e)
-    }
-  }
-  var array = []
   return (
     <MDBContainer>
-      {state ? <Result type={type1}/> :
       <MDBRow className="justify-content-center">
         <MDBCol size="5">
           <form className="bg-white mt-3" action="">
@@ -39,9 +19,7 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="In the morning"
-              value="In the morning"
-              // defaultChecked
-              onClick={(e)=>array.push(e.target.value)}
+              defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
@@ -60,10 +38,7 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped"
-              value="Have your hands clasped"
-              onClick={(e)=>array.push(e.target.value)}
-
-              // defaultChecked
+              defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
@@ -87,7 +62,7 @@ const Form = () => {
               name="flexRadioDefault"
               id="flexRadioDefault1"
               label="Have your hands clasped"
-              // defaultChecked
+              defaultChecked
             />
             <MDBRadio
               name="flexRadioDefault"
@@ -262,6 +237,7 @@ const Form = () => {
                 height: "40%",
               }}
             />
+            
           </div>
           <div className="iframe">
             <iframe
@@ -273,12 +249,12 @@ const Form = () => {
             />
           </div>
           <div className="text-white">
-            <button className="btn btn-success" onClick={onSubmit}>
-              Submit
+            <button className="btn btn-success">
+              <Link to={"/result"}>Submit</Link>
             </button>
           </div>
         </MDBCol>
-      </MDBRow>}
+      </MDBRow>
     </MDBContainer>
   )
 }

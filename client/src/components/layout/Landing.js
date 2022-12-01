@@ -17,15 +17,15 @@ const Landing = ({ isDoctorAuthenticated, isUserAuthenticated }) => {
       <section id="landing">
         <div className="container">
           <div className="heading">
-            <h1 className="main-heading">Find Your Best Counslor &</h1>
+            <h1 className="main-heading">Find Your Best Counsellor &</h1>
             <h1 className="main-heading">
-              Book Your <span className="main-span">Appointment.</span>
+              Book Your Appointment
             </h1>
           </div>
           <div className="signup">
-            <div className="Counslor-signup">
+            <div className="Counsellor-signup">
               <h2 className=" item heading-sub">
-                <strong>For Counslor's</strong>
+                <strong>For Counsellor's</strong>
               </h2>
               <p className="item description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
@@ -43,11 +43,14 @@ const Landing = ({ isDoctorAuthenticated, isUserAuthenticated }) => {
               <h2 className="item heading-sub">
                 <strong>For Users</strong>
               </h2>
-              <p className="item special description">
+              <p className="item description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
                 itaque quae delectus veritatis consequatur hic!
               </p>
-              <Link to="/registerUser" className="item btn btn-outline-info">
+              <Link to="/registerUser" 
+                    type="button"
+                    className="item btn btn-info"
+              >
                 Sign Up
               </Link>
             </div>
@@ -55,7 +58,7 @@ const Landing = ({ isDoctorAuthenticated, isUserAuthenticated }) => {
           <br />
           <div className="img">
             <div className="img-1">
-              <img src={require("../../img/undraw_doctor_kw5l.svg")} />
+              <img src={require("../../img/landing.jpg")} />
             </div>
           </div>
         </div>
