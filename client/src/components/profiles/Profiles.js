@@ -18,7 +18,7 @@ const Profiles = ({getProfiles, profile: { profiles,loading }}) => {
                 <section id="profiles-page">
                     <div className="container">
                         <div className="heading-common">
-                            <h1><strong>Doctor Profiles</strong></h1>  
+                            <h1><strong>User Profiles</strong></h1>  
                         </div>
                         <h2 className="welcome-heading"><i className="fas fa-user-md"></i> Book your Appointments</h2>
                         <br />
