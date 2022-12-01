@@ -101,18 +101,6 @@ const Edit = ({ profile: {profile, loading}, createProfile, getCurrentProfile, h
                                     onChange={e => onChange(e)} required
                                 />
                                 <small className="form-text text-muted">Could be your own clinic or one you work </small>
-                                </div>
-                                <div className="form-group">
-                                <input 
-                                    type="text" 
-                                    className="form-control" 
-                                    placeholder="Specalist"
-                                    name="specialists" 
-                                    value={specialists}
-                                    onChange={e => onChange(e)} required 
-                                />
-                                <small className="form-text text-muted">Give us an idea of your specalist. </small>
-                                </div>
                                 <div className="form-group">
                                 <input 
                                     type="text" 
