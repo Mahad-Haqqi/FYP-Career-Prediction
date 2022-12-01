@@ -53,7 +53,7 @@ const AddExperience = ({ addExperience, history }) => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="* Hospital/Clinic"
+                      placeholder="*Clinic"
                       name="medical"
                       value={medical}
                       onChange={(e) => onChange(e)}
@@ -144,7 +144,7 @@ const AddExperience = ({ addExperience, history }) => {
               <div className="img-side">
                 <img
                   className="register-user"
-                  src={require("../../img/undraw_medical_research_qg4d.svg")}
+                  src={require("../../img/counsellorexp.jpg")}
                   alt=""
                 />
               </div>

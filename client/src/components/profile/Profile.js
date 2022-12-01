@@ -80,19 +80,6 @@ const Profile = ({
                                             }
                                         </div>
                                     </div>
-                                    <div class="patient-review">
-                                            <h2 class="exp-common-heading">Patient Reviews</h2> 
-                                            { authUser.isUserAuthenticated ? 
-                                                (
-                                                   <ReviewForm doctorId={profileById.doctor._id} /> 
-                                                ) : ""
-                                            }
-                                            {
-                                                profileById.review.map(rev => (
-                                                    <ProfileReview key={rev._id} review={rev} doctorId={match.params.id} />
-                                                ))
-                                            }
-                                        </div>
                                 </div>
                             </div>
                     </section>

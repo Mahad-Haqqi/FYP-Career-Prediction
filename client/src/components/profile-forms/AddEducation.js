@@ -36,7 +36,7 @@ const AddEducation = ({addEducation, history}) => {
                                         <i className="fas fa-university"></i>
                                     </h1>  
                                     <p className="lead">
-                                        <i className="fas fa-user"></i> Add any school, Medicalcamp, etc that you have attended
+                                        <i className="fas fa-user"></i> Add any school etc that you have attended
                                     </p>
                                 </div>
                                 <form onSubmit={e => {

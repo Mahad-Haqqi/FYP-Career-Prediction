@@ -35,9 +35,6 @@ const Form = ({profile, doctorId,history, addAppointment}) => {
             <div className="heading-common">
                 <h1><strong>Book Appointment</strong>
                 </h1>  
-                <p className="lead">
-                    Provide your details correctly and book your appointment.
-                </p>
             <div className="appointment-doctor">
                 <img className="round-img appointment-img" src={profile.avatar} alt="" />
                 <p className="lead"><strong>{profile.name}</strong></p>

@@ -85,9 +85,6 @@ const ProfileTop = ({
           </div>
         </div>
       </div>
-      <div className="top-profile-img">
-        <img src={require("../../img/doctor4.svg")} />
-      </div>
     </div>
   )
 }

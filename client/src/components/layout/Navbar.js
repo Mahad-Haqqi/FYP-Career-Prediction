@@ -31,14 +31,14 @@ const Navbar = ({
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item active">
-            <Link to="/" className="nav-link">
-              Home
+        <li className="nav-item active">
+            <Link to="/appointment" className="nav-link ">
+              Appointments
             </Link>
           </li>
           <li className="nav-item active">
             <Link to="/form" className="nav-link">
-              Form
+              Questionnare
             </Link>
           </li>
           <li className="nav-item active">
@@ -46,11 +46,7 @@ const Navbar = ({
               Counsellor
             </Link>
           </li>
-          <li className="nav-item active">
-            <Link to="/appointment" className="nav-link ">
-              Appointments
-            </Link>
-          </li>
+          
           <li className="nav-item active">
             <a
               className="nav-link font-weight-bolder"

@@ -34,7 +34,7 @@ const LoginDoctor = ({ login, isDoctorAuthenticated }) => {
             <div className="form-side">
               <div className="heading-common">
                 <h1>
-                  <strong>Log in Counslor </strong>
+                  <strong>Log in as Counsellor </strong>
                   <i className="fas fa-sign-in-alt"></i>
                 </h1>
               </div>
@@ -78,7 +78,7 @@ const LoginDoctor = ({ login, isDoctorAuthenticated }) => {
             </div>
             <div className="img-side">
               <img
-                src={require("../../img/doctor8.svg")}
+                src={require("../../img/counsellorlogin.jpg")}
                 alt=""
                 className="register-user"
               />

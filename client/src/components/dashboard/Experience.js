@@ -38,7 +38,7 @@ const Experience = ({ experience, deleteExperience }) => {
         <div class="common-table">
           <table class="table">
             <tr>
-              <th>Hospital/Clinic</th>
+              <th>Clinic</th>
               <th>Postion</th>
               <th>Years</th>
               <th></th>

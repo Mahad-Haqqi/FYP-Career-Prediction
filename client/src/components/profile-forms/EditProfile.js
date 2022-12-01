@@ -24,7 +24,7 @@ const Edit = ({ profile: {profile, loading}, createProfile, getCurrentProfile, h
     useEffect(() => {
         getCurrentProfile();
         setFormData({
-            clinic: loading || !profile.clinic ? '': profile.clinic,
+            // clinic: loading || !profile.clinic ? '': profile.clinic,
             website: loading || !profile.website ? '': profile.website,
             location: loading || !profile.location ? '': profile.location,
             status: loading || !profile.status ? '': profile.status,
@@ -73,10 +73,6 @@ const Edit = ({ profile: {profile, loading}, createProfile, getCurrentProfile, h
                                 <h1><strong>Edit Profile</strong>{' '}
                                     <i className="far fa-id-card"></i>
                                 </h1>  
-                                <p className="lead">
-                                    <i className="fas fa-user"></i> Let's get some information to make your
-                                    profile stand out
-                                </p>
                             </div>
                             <form onSubmit={e => onSubmit(e)}>
                                 <small>* = required field</small>

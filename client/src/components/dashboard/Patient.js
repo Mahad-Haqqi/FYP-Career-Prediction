@@ -72,7 +72,7 @@ const Patient = ({patient}) => {
     return (
         <Fragment>
             <div className="common-details">
-                <h2 className="credentials"><strong>Patient Credentials</strong></h2>
+                <h2 className="credentials"><strong>User Credentials</strong></h2>
                     <br />
                     <div className="common-table">
                         <div className="scroll-table">
@@ -80,7 +80,7 @@ const Patient = ({patient}) => {
                                 <thead>
                                     <tr>
                                         <th>Booking ID</th>
-                                        <th>Patient's Name</th>
+                                        <th>Name</th>
                                         <th>Date</th>
                                         <th></th>
                                     </tr>
