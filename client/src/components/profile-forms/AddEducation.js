@@ -34,10 +34,7 @@ const AddEducation = ({addEducation, history}) => {
                                 <div className="heading-common">
                                     <h1><strong>Add Education</strong>
                                         <i className="fas fa-university"></i>
-                                    </h1>  
-                                    <p className="lead">
-                                        <i className="fas fa-user"></i> Add any school, Medicalcamp, etc that you have attended
-                                    </p>
+                                    </h1>
                                 </div>
                                 <form onSubmit={e => {
                                     e.preventDefault();
@@ -101,9 +98,8 @@ const AddEducation = ({addEducation, history}) => {
                                         <textarea 
                                             name="description"
                                             className="form-control" 
-                                            placeholder="* Program Description" 
+                                            placeholder="Description" 
                                             value={description} onChange={e => onChange(e)}></textarea>
-                                        <small className="form-text">Tell us a little about the program.</small>
                                     </div>
                                     <input type="submit" className="btn btn-info" />{' '}
                                     <Link to="/dashboard" type="submit" className="btn btn-outline-secondary">Go Back</Link>

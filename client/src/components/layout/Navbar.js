@@ -42,6 +42,11 @@ const Navbar = ({
             </Link>
           </li>
           <li className="nav-item active">
+            <Link to="/profiles" className="nav-link">
+              Counsellor
+            </Link>
+          </li>
+          <li className="nav-item active">
             <Link to="/appointment" className="nav-link ">
               Appointments
             </Link>
@@ -62,12 +67,7 @@ const Navbar = ({
   const authDoctorLinks = (
     <Fragment>
       <Link className="nav-logo" to="/dashboard">
-        Career Prediction and Counsling
-        <img
-          className="nav-log-img"
-          style={{ width: "3.2rem" }}
-          src={require("../../img/logo1.jpeg")}
-        />
+        Career Prediction and Counselling
       </Link>
       <button
         className="navbar-toggler"
@@ -90,11 +90,6 @@ const Navbar = ({
           <li className="nav-item active">
             <Link to="/meeting" className="nav-link ">
               Create Meeting
-            </Link>
-          </li>
-          <li className="nav-item active">
-            <Link to="/profiles" className="nav-link">
-              Counslor
             </Link>
           </li>
           <li className="nav-item dropdown active">
@@ -139,12 +134,7 @@ const Navbar = ({
   const guestLinks = (
     <Fragment>
       <Link className="nav-logo" to="/">
-        Career Prediction and Counsling
-        <img
-          className="nav-log-img"
-          style={{ width: "3.2rem" }}
-          src={require("../../img/logo1.jpeg")}
-        />
+        Career Prediction and Counselling
       </Link>
       <button
         className="navbar-toggler"
@@ -162,12 +152,6 @@ const Navbar = ({
           <li className="nav-item active">
             <Link to="/" className="nav-link">
               Home
-            </Link>
-          </li>
-
-          <li className="nav-item active">
-            <Link to="/profiles" className="nav-link">
-              Counslor
             </Link>
           </li>
           <li className="nav-item dropdown active">
@@ -188,7 +172,7 @@ const Navbar = ({
                 <i className="fas fa-users"></i> Login as User
               </Link>
               <Link className="dropdown-item" to="/loginDoctor">
-                <i className="fas fa-user-md"></i> Login as Counslor
+                <i className="fas fa-user-md"></i> Login as Counsellor
               </Link>
             </div>
           </li>
@@ -210,7 +194,7 @@ const Navbar = ({
                 <i className="fas fa-users"></i> Register as User
               </Link>
               <Link className="dropdown-item" to="/registerDoctor">
-                <i className="fas fa-user-md"></i> Register as Counslor
+                <i className="fas fa-user-md"></i> Register as Counsellor
               </Link>
             </div>
           </li>

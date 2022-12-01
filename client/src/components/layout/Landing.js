@@ -17,15 +17,15 @@ const Landing = ({ isDoctorAuthenticated, isUserAuthenticated }) => {
       <section id="landing">
         <div className="container">
           <div className="heading">
-            <h1 className="main-heading">Find Your Best Counslor &</h1>
+            <h1 className="main-heading">Find Your Best Counsellor &</h1>
             <h1 className="main-heading">
-              Book Your <span className="main-span">Appointment.</span>
+              Book Your Appointments.
             </h1>
           </div>
           <div className="signup">
             <div className="Counslor-signup">
               <h2 className=" item heading-sub">
-                <strong>For Counslor's</strong>
+                <strong>For Counsellor's</strong>
               </h2>
               <p className="item description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
