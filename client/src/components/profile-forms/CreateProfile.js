@@ -81,7 +81,7 @@ const CreateProfile = ({ createProfile, history}) => {
                                     placeholder="* Clinic" 
                                     name="clinic" 
                                     value={clinic}
-                                    onChange={e => onChange(e)} required
+                                    onChange={e => onChange(e)} //required
                                 />
                                 <small className="form-text text-muted">Could be your own clinic or one you work </small>
                                 </div>
@@ -92,7 +92,7 @@ const CreateProfile = ({ createProfile, history}) => {
                                     placeholder="Specalist"
                                     name="specialists" 
                                     value={specialists}
-                                    onChange={e => onChange(e)} required 
+                                    onChange={e => onChange(e)} //required 
                                 />
                                 <small className="form-text text-muted">Give us an idea of your specalist. </small>
                                 </div>
@@ -146,7 +146,7 @@ const CreateProfile = ({ createProfile, history}) => {
                                         placeholder="* A short bio of yourself" 
                                         name="bio"
                                         value={bio}
-                                        onChange={e => onChange(e)} required
+                                        onChange={e => onChange(e)} //required
                                     />
                                     <small className="form-text">Tell us a little about yourself</small>
                                 </div>
