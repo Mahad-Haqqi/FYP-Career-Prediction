@@ -24,7 +24,7 @@ mongoose
 //Init Middleware
 app.use(express.json({ extended: false }))
 
-app.get("/", (req, res) => res.send("Welcome Jeevan Joti Dash"))
+app.get("/", (req, res) => res.send("Welcome"))
 
 // Use Routes
 app.use("/api/doctors", doctors)
