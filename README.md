@@ -1,7 +1,7 @@
 # Consellor 
-> Doctor appointment booking for patients
+> counsellor appointment booking 
 
-This is a MERN stack application which is based on booking appointment which includes doctor authentication, create profile,add experience, add education, dashboard with recent appointments, recent reviews and user authentication, appointment booking and cancel appointment, post review and delete review to a doctor profile by users.
+This is a MERN stack application which is based on booking appointment which includes councellor authentication, create profile,add experience, add education, dashboard with recent appointments, recent reviews and user authentication, appointment booking and cancel appointment,questionnaire to predict personality and suggest career post review.
 #### [Click Here](https://drive.google.com/drive/folders/1BplDurTpvfIIzYjeMv98YfslDRjVdf_e?usp=sharing) for screenshots
 
 ## Install server dependencies

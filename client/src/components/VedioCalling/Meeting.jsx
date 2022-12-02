@@ -5,7 +5,7 @@ const JitsiMeet = () => {
     <div>
       <JitsiMeeting
         domain={"meet.jit.si"}
-        roomName="CareerPridiction"
+        roomName="Career Counselling"
         configOverwrite={{
           startWithAudioMuted: true,
           disableModeratorIndicator: true,
@@ -16,7 +16,7 @@ const JitsiMeet = () => {
           DISABLE_JOIN_LEAVE_NOTIFICATIONS: false,
         }}
         userInfo={{
-          displayName: "COUNSLER",
+          displayName: "COUNSELLOR",
         }}
         onApiReady={(externalApi) => {
           // here you can attach custom event listeners to the Jitsi Meet External API
