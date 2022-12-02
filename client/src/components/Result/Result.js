@@ -4,7 +4,7 @@ const Result = ({type}) => {
   return (
     <div className="result1">
       <h1>Based On the Performance of Test</h1>
-      <h2>Our Pridiction is</h2>
+      <h2>Our Prediction is</h2>
       <h1>{type}</h1>
       <p>
         This personality type tends to prefer working in groups, especially in
