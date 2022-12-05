@@ -14,11 +14,11 @@ const Result = ({ type, first, second, third, fourth }) => {
     ],
   };
   const chartData2 = {
-    labels: ["Intuative", "sensing"],
+    labels: ["Intuative", "Sensing"],
     datasets: [
       {
         data: [second.N, second.S],
-        backgroundColor: ["red", "blue"],
+        backgroundColor: ["green", "yellow"],
       },
     ],
   };
@@ -27,16 +27,16 @@ const Result = ({ type, first, second, third, fourth }) => {
     datasets: [
       {
         data: [third.F, third.T],
-        backgroundColor: ["red", "blue"],
+        backgroundColor: ["purple", "orange"],
       },
     ],
   };
   const chartData4 = {
-    labels: ["Judging", "Perceiveing"],
+    labels: ["Judging", "Perceiving"],
     datasets: [
       {
         data: [fourth.J, fourth.P],
-        backgroundColor: ["red", "blue"],
+        backgroundColor: ["green", "blue"],
       },
     ],
   };
@@ -52,12 +52,14 @@ const Result = ({ type, first, second, third, fourth }) => {
           <span>({personality[type.type][0]})</span>
         </h1>
         <p>{personality[type.type][1]}</p>
+        <h2>Career options</h2>
+        <p>{personality[type.type][2]}</p>
       </div>
-      <div>
-        <Doughnut data={chartData1} />
-        <Doughnut data={chartData2} />
-        <Doughnut data={chartData3} />
-        <Doughnut data={chartData4} />
+      <div className="chart">
+        <div className="column"><Doughnut data={chartData1} width={250} /></div>
+        <div className="column"><Doughnut data={chartData2} width={250} /></div>
+        <div className="column"><Doughnut data={chartData3} width={250} /></div>
+        <div className="column"><Doughnut data={chartData4} width={250} /></div>
       </div>
     </>
   );
